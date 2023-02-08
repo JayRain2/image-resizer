@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image Resizer</title>
+		<link rel="stylesheet" href="./styles/general.css">
+		<link rel="stylesheet" href="./styles/display.css">
+		<script src="./scripts/index.js"></script>
+	</head>
+	<body>
+		<main>
+			<section id="main">
+				<div id="resize-label">Resize Image</div>
+				
+				<div id="image-container"></div>		
+
+				<div class="grid">
+					<div>
+						<div class="dimension-label">New Width</div>
+						<input id="width" placeholder="1920">
+					</div>
+	
+					<div>
+						<div class="dimension-label">New Height</div>
+						<input id="height" placeholder="1080">
+					</div>	
+				</div>
+
+				<div class="grid">
+					<div>
+						<input id="upload-thing" type="file" name="the-image" accept="image/png, image/jpeg" onchange="imageUploaded()" hidden/>
+						<label id="upload-button" for="upload-thing">Upload Image</label>
+						<button id="resize-button" onclick="resizeImageButton()">Resize Image</button>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+	background-color: black;
+}
+
+div {
+	color: white;
+	font-family: Arial;
+	margin-top: 0;
+	margin-bottom: 10px;
+}

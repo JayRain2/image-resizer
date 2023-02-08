@@ -1,0 +1,79 @@
+#resize-label {
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+}
+
+#main {
+	background-color: rgb(5, 4, 4);
+	height: 100%;
+	width: 100%;
+	transform: translateY(10%);
+}
+
+
+#upload-button {
+	background-color: rgb(8, 8, 8);
+	color: white;
+	border: 1px white solid;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 17px;
+	margin-right: 20px;
+}
+
+#resize-button {
+	background-color: rgb(8, 8, 8);
+	color: white;
+	border: 1px white solid;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+#width, #height {
+	width: 40px;
+	text-align: center;
+	border: 1px white solid;
+	border-radius: 5px;
+	background-color:rgb(8, 8, 8);
+	color: white;
+	padding: 5px 10px;
+}
+
+#width:focus, #height:focus {
+	outline-width: 0;
+}
+
+#width::placeholder, #height::placeholder {
+	font-size: 13px;
+	color: rgb(143, 138, 138);
+}
+
+#image-container {
+	display: flex;
+	vertical-align: center;
+	width: 400px;
+	height: 200px;
+	border: 1px white solid;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.dimension-label {
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	column-gap: 50px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+}
